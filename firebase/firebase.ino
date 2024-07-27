@@ -9,12 +9,12 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials (to be replaced with a secure method)
-const char* ssid = "Your_WiFi_SSID";
-const char* password = "Your_WiFi_Password";
+const char* ssid = "Yunus";
+const char* password = "25121964";
 
 // Firebase configuration (to be replaced with a secure method)
-#define FIREBASE_HOST "mqtt-b9578.firebaseio.com"
-#define FIREBASE_AUTH "zeQcXZPtKdHZhKZe5DrX1oTgogiFZ1DW7sB2KWCj"
+#define FIREBASE_HOST "attendance-system-25.firebaseapp.com"
+#define FIREBASE_AUTH "LPS1b7FZo2JP4MhzgyzrM1RvW76L2zYj5021h2Ad"
 
 // NTP time configuration
 const long utcOffsetInSeconds = 19800; // UTC+5:30
